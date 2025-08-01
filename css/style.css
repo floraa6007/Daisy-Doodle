@@ -1,0 +1,85 @@
+/* Fonts: Playfair Display (serif) and Great Vibes (cursive) */
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #f5f1ea;
+  color: #2f3e2e;
+}
+
+header.hero {
+  background-color: #2f3e2e;
+  color: #f5f1ea;
+  text-align: center;
+  padding: 80px 20px;
+  background-image: url('your-floral-illustration.png'); /* Optional */
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+}
+
+.hero-text h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.products {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card p {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.about {
+  padding: 40px 20px;
+  background-color: #e2e6dc;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #2f3e2e;
+  color: #f5f1ea;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
